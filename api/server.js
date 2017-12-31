@@ -50,7 +50,7 @@ server.route({
 // SONDE PAR ID
 server.route({
     method: 'GET',
-    path: '/sonde/{id}',
+    path: '/sondes/{id}',
     handler: function (request, reply) {
         const id = request.params.id;
 
